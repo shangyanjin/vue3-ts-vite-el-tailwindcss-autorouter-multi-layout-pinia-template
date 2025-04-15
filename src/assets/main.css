@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #3B82F6;
+}
+
+/* Dark mode styles */
+.dark {
+  @apply bg-gray-900 text-white;
+}
+
+/* Font sizes */
+.text-small {
+  font-size: 0.875rem;
+}
+
+.text-medium {
+  font-size: 1rem;
+}
+
+.text-large {
+  font-size: 1.125rem;
+}
